@@ -38,7 +38,7 @@ header{
 
 .immagine img 
 {
-    width: 750px;
+    width: 650px;
     height: auto;
     display: block;
     margin-left: auto;
@@ -206,7 +206,11 @@ footer {
         left:-30px;
     }
 
-    
+    .immagine img 
+    {
+        width: 550px;
+      
+    }
     
 }
 
@@ -227,6 +231,12 @@ footer {
         width: 360px;
         height: 280px;
     }
+
+    .immagine img 
+    {
+        width: 400px;
+      
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -244,4 +254,9 @@ footer {
         font-size: medium;
     }
 
+    .immagine img 
+    {
+        width: 280px;
+      
+    }
 }
